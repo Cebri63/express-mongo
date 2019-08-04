@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const port = 3000;
 
 // notre mini base de données
-let counter = 0;
+// let counter = 0;
 
 const Counter = mongoose.model("Counter", {
   name: "",
@@ -62,5 +62,5 @@ app.post("/decrement", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Server has started !");
+  console.log("Server has started !!!!");
 });
